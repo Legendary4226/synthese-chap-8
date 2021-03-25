@@ -1,0 +1,133 @@
+/* Importation de polices */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+/*
+*{
+  -webkit-transition-duration: 10s;
+}
+*/
+/* Style principal */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+#page {
+	width: 100vw;
+	height: 100vh;
+	background-color: #EBECF0;
+	overflow: hidden;
+	box-shadow: inset -5px -5px 10px #FFFFFF, inset 5px 5px 10px #cecace;
+	border-radius: 10px;
+	overflow: auto;
+}
+body {
+	background-color: #EBECF0;
+	overflow: hidden;
+}
+
+/* Formatage du texte */
+h1, h4 {
+	font-weight: 600;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;
+	color: #ff521b;
+}
+h4 {
+	font-weight: 600;
+	font-size: 1.3em;
+}
+p, li {
+	color: #230aff;
+	font-size: 1.2em;
+}
+
+/* Parties */
+#main-title {
+	font-size: 1.6em;
+	text-align: center;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1.5%;
+}
+#section1 {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5%;
+	box-shadow: inset -5px -5px 10px #FFFFFF, inset 5px 5px 10px #cecace;
+	border-radius: 10px;
+	padding: 1%;
+	text-align: center;
+}
+#section1 p, #section1 h4{
+	margin: 4px;
+}
+#section1 div.types p {
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;
+}
+
+
+#contains-parts {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 92.5%;
+	margin-right: auto;
+	margin-left: auto;
+	/*pp73 ♥ border-radius: 10px;*/
+	/*box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;*/
+}
+#part1 {
+	box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;
+	margin: 3px;
+	border-radius: 10px;
+	padding: 1%;
+}
+#part2 {
+	box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;
+	margin: 3px;
+	border-radius: 10px;
+	padding: 1%;
+}
+#part3 {
+	box-shadow: inset -5px -5px 10px #FFFFFF, inset 5px 5px 10px #cecace;
+	margin: 3px;
+	border-radius: 10px;
+	padding: 1%;
+}
+ul {
+	list-style-type: disclosure-closed;
+	list-style-position: inside;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px)
+{
+    #section1 div.types {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.main-two-parts {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 901px)
+{
+	#section1 div.types {
+		display: flex;
+		justify-content: space-around;
+	}
+	#section1 p, #section1 h4{
+		margin: 3px;
+	}
+	.main-two-parts {
+		display: flex;
+		width: 100%;
+	}
+}
