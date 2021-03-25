@@ -17,10 +17,11 @@
 	background-color: #EBECF0;
 	box-shadow: inset -5px -5px 10px #FFFFFF, inset 5px 5px 10px #cecace;
 	border-radius: 10px;
-	overflow: auto;
+	overflow: scroll;
 }
 body {
 	background-color: #EBECF0;
+	overflow: hidden;
 }
 
 /* Formatage du texte */
