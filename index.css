@@ -112,7 +112,6 @@ div.part1 {
 	margin: 3px;
 	border-radius: 10px;
 	padding: 1%;
-	max-width: 49%;
 }
 div.part2 {
 	box-shadow: 5px 5px 10px #cecace, -5px -5px 10px #FFFFFF;
@@ -126,6 +125,7 @@ div.part3 {
 	border-radius: 10px;
 	padding: 1%;
 	margin-top: 15px;
+	margin-top: 200px;
 }
 ul {
 	list-style-type: disclosure-closed;
@@ -158,6 +158,9 @@ ul {
 		display: flex;
 	}
 	#page {
-		height: 100vh;
+		/*height: 100vh;*/
+	}
+	div.part1 {
+		max-width: 49%;
 	}
 }
