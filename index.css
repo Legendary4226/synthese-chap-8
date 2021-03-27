@@ -132,7 +132,7 @@ ul {
 }
 
 /* Responsive Design */
-@media (max-width: 600px)
+@media (max-width: 900px)
 {
     #section1 div.types {
 		display: flex;
@@ -147,7 +147,7 @@ ul {
 		height: auto;
 	}
 }
-@media (min-width: 600px)
+@media (min-width: 901px)
 {
 	#section1 div.types {
 		display: flex;
